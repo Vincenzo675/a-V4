@@ -1,21 +1,21 @@
 require('dotenv').config(); 
 
 global.owner = process.env.OWNER_NUMBER.split(','); 
-global.anitav4 = process.env.BOT_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.ownername = process.env.OWNER_NAME || "David Cyril";
-global.packname = process.env.PACK_NAME || "𝐐𝐔𝐄𝐄𝐍_𝐀𝐍𝐈𝐓𝐀-𝐕𝟒";
-global.author = process.env.AUTHOR || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channelname = process.env.CHANNEL_NAME || "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋";
-global.channeljid = process.env.CHANNEL_JID || "120363315231436175@newsletter";
+global.anitav4 = process.env.BOT_NAME || "𝕷𝖞𝖓𝖝";
+global.ownername = process.env.OWNER_NAME || "V i Nㄷㅌ";
+global.packname = process.env.PACK_NAME || "𝕷𝖞𝖓𝖝";
+global.author = process.env.AUTHOR || "V i Nㄷㅌ";
+global.channelname = process.env.CHANNEL_NAME || "𝓠𝓾𝓮𝓮𝓷 𝓑𝓲𝓷𝓭𝔂𝓪";
+global.channeljid = process.env.CHANNEL_JID || "120363328568432738@newsletter";
 global.autoTyping = process.env.AUTO_TYPING === 'true'; 
 global.autoRecord = process.env.AUTO_RECORD === 'true';
-global.autoViewStatus = process.env.AUTO_VIEW_STATUS === 'true';
-global.AUTOSTATUS_REACT = process.env.AUTOSTATUS_REACT === 'true';
-global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
+global.autoViewStatus = process.env.AUTO_VIEW_STATUS === 'false';
+global.AUTOSTATUS_REACT = process.env.AUTOSTATUS_REACT === 'false';
+global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "✨";
 
 global.LEVELUP = process.env.LEVELUP === 'true';
 
-global.ANTIVIEWONCE = process.env.ANTIVIEWONCE === 'true';
+global.ANTIVIEWONCE = process.env.ANTIVIEWONCE === 'false';
 
 global.roles = {
     1: "Novice",
@@ -35,9 +35,9 @@ global.public = process.env.PUBLIC === 'true';
 global.ANTIDELETE = process.env.ANTIDELETE === 'true';
 global.unavailable = process.env.UNAVAILABLE === 'true';
 global.available = process.env.AVAILABLE === 'true';
-global.autoreadmessages = process.env.AUTO_READ_MESSAGES === 'true';
+global.autoreadmessages = process.env.AUTO_READ_MESSAGES === 'false';
 global.chatbot = process.env.CHATBOT === 'true';
-global.autoreact = process.env.AUTO_REACT === 'true';
+global.autoreact = process.env.AUTO_REACT === 'false';
 
 global.WELCOME = process.env.WELCOME === 'true';
 
